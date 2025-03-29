@@ -1,0 +1,47 @@
+body{
+    background-color: #372231;
+   justify-content: center;
+   display: flex;
+   text-align: center;
+}
+.banda{
+    color: #685160;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-color{
+    color: #786070;
+}
+.botones{
+    justify-content: space-between;    
+    
+}
+.botones-inicio{
+  background-color: #DC143C;
+  color: white;
+  padding: 20px 25px;
+  border-radius:10px;
+  border: none;
+}
+.albumes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.album img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+.formulario {
+    background: #e7c9dd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
